@@ -96,7 +96,7 @@ public class tutorialMovementManager : MonoBehaviour
     {
 
         // Checks that the player is within specified bounds before evaluating motion/rotation
-        // When rotation is at 0บ
+        // When rotation is at 0ยบ
         if (rotationIndex == 1)
         {
             // Lateral movement boundaries
@@ -138,7 +138,7 @@ public class tutorialMovementManager : MonoBehaviour
             else limitRotation = false;
         }
 
-        // When rotation is at 90บ
+        // When rotation is at 90ยบ
         if (rotationIndex == 2)
         {
             // Lateral movement boundaries
@@ -180,7 +180,7 @@ public class tutorialMovementManager : MonoBehaviour
             else limitRotation = false;
         }
 
-        // When rotation is at 180บ
+        // When rotation is at 180ยบ
         if (rotationIndex == 3)
         {
             // Lateral movement boundaries
@@ -222,7 +222,7 @@ public class tutorialMovementManager : MonoBehaviour
             else limitRotation = false;
         }
 
-        // When rotation is at 270บ
+        // When rotation is at 270ยบ
         if (rotationIndex == 0)
         {
             // Lateral movement boundaries
